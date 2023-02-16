@@ -37,6 +37,10 @@ h2 {
     line-height: 0px;
 }
 
+#experience{
+    text-align: left;
+}
+
 .summary{
     font-size: 16px;
 }
@@ -56,6 +60,10 @@ h2 {
 
 ul {
     margin: 0px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 li b {
@@ -96,7 +104,7 @@ input[type='submit'] {
 } 
 
 #contacForm{
-    padding: 5%;
+    padding: 10%;
 }
 
 footer {
@@ -126,36 +134,28 @@ table {
     padding-left: 5%;
     text-align: center;
 }
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
   
-  li {
+#optionmenu{
     float: left;
-  }
+}
   
-  li a {
+li a {
     display: block;
     color: white;
     text-align: center;
     padding: 40px 30px;
     text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover:not(.active) {
+}
+
+li a:hover:not(.active) {
     background-color: #77499e;
-  }
+}
 
-  .active {
+.active {
     background-color: #943e86;
-  }
+}
 
-  #navBar{
+#navBar{
     padding-left: 15%;
 }
   

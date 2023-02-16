@@ -12,18 +12,17 @@
                         <h1>Raquel Abarca Espinoza</h1>
                         <h2>Personal website</h2>  
                     </td>
-                    <td id="navBar">
-                        <ul>
-                            <li><a class="active" href="#home">Home</a></li>
-                            <li><a href="extrame.html">Extra Me</a></li>
-                            <li><a href="news.asp">News</a></li>
-                            <li><a href="contact.asp">Contact</a></li>
-                            <li><a href="about.asp">About</a></li>
+                    <td>
+                        <ul id="navBar">
+                            <li id="optionmenu"><a class="active" href="#home">Home</a></li>
+                            <li id="optionmenu"><a href="extrame.html">Extra Me</a></li>
+                            <li id="optionmenu"><a href="news.asp">News</a></li>
+                            <li id="optionmenu"><a href="contact.asp">Contact</a></li>
+                            <li id="optionmenu"><a href="about.asp">About</a></li>
                         </ul>
                     </td>
                 </tr>
-            </table>
-            
+            </table>     
         </header>
         <section>
             <table id="summaryTable">
@@ -31,18 +30,19 @@
                     <td>
                         <p class="meImg">
                             <a href="https://github.com/RaquelAbarca" target="_blank">
-                                <img src="https://avatars.githubusercontent.com/u/110420288?v=4"  alt="personal photo" width="150%">
+                                <img src="https://avatars.githubusercontent.com/u/110420288?v=4"  alt="personal photo" width="400px">
                             </a>
                         </p>
                     </td>
                     <td id="about_me">
                         <h1>Raquel Sofía Abarca Espinoza</h1>
-                        <h2>Software Engineer   •   graphic designer   •   Young Life Volunteer</h2>
+                        <h2>Software Engineer   •   Graphic Designer   •   Young Life Volunteer</h2>
                         <hr>
-                        <p class="summary">I am a Student Developer in DataGrove, with experience in Dart, HTML, CSS, Java, React and other languajes. Student of the Universidad Hispanoamericana.</p>
-                        <section>
+                        <p class="summary">I am a Student Developer in DataGrove, with experience in Dart, HTML, CSS, Java, React and other languajes. Student of the Universidad Hispanoamericana. I really enjoy programming challenges, they drive me to learn more and discover a way to solve them.</p>
+                        <section id="experience">
                             <h2>Experience</h2>
-                            <ul>
+                            <hr>
+                            <ul class="">
                                 <li><b>Datagrove</b> | 2022 - Present</li>
                                 <li><b>WorldVision</b> | 2021</li>
                             </ul>
@@ -78,9 +78,9 @@
             </table>  
         </section>
         
-        <section>
+        <section id="contactForm">
             <h2>Contact Form</h2>
-            <form id="contactForm">
+            <form>
                 <label form="name">Name:</label>
                 <input planceholder="Name" id="name" type="text"><br>
                 <br>
