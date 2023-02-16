@@ -1,6 +1,6 @@
 header{
     text-align: left;
-    background-color: #bba5cdf3;
+    background-color: #7adcc6d3;
     padding-top: 2px;
     padding-bottom: 0px;
     padding-left: 5%;
@@ -8,19 +8,25 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    line-height: 10px;
-    color: rgb(254, 255, 247);
+    line-height: 5px;
+    backdrop-filter: blur(3px);
+}
+
+#subtitle{
+    padding-left: 23%;
 }
 
 body{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:Krub, sans-serif;
     margin-top: 100px;
+    font-size: 20px;
 }
 
 h1{
-    font-size: 48px;
+    font-size: 68px;
     text-transform: capitalize;
-    font-family: "DynaPuff", sans-serif;
+    font-family: "Pacifico", sans-serif;
+    color: rgb(0, 37, 44);
 
 }
 
@@ -38,7 +44,7 @@ h2 {
 }
 
 #experience{
-    text-align: left;
+    text-align: center;
 }
 
 .summary{
@@ -46,14 +52,13 @@ h2 {
 }
 
 .meImg img{
-    float: right;
+    float: initial;
     border-radius: 50%;
-
 }
 
 #summaryTable{
     border: 2px solid #ffffff;
-    width: 70%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -141,21 +146,28 @@ table {
   
 li a {
     display: block;
-    color: white;
+    color: rgb(6, 31, 33);
     text-align: center;
-    padding: 40px 30px;
+    padding: 60px 30px;
     text-decoration: none;
 }
 
 li a:hover:not(.active) {
-    background-color: #77499e;
+    background-color: #7cffd1;
 }
 
 .active {
-    background-color: #943e86;
+    background-color: #1c8869;
+    color: #ffffff;
 }
 
-#navBar{
-    padding-left: 15%;
+.navBar{
+    padding-left: 5%;
+    font-size: 20px;
 }
-  
+
+.datagrove img{
+    float: initial;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 3px rgb(212, 212, 212);
+}
